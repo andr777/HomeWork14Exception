@@ -25,6 +25,10 @@ public class Main {
             throw new WrongLoginException(" пароль должен содержать символы a-z A-Z 0-9 _");
         }
 
+        /////////////// как это всё работает? я не понялчто я насочинял :(
+        // и как надо было?
+        //а еще забыл ветку сразу сделать :(
+
         if (password.length() > 20) {
             try {
                 throw new WrongPasswordException(" пароль больше 20 символов");
